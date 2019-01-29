@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
-  channel_prefix: DevisResumePG_production
+  channel_prefix: devis_resume_pg_production
