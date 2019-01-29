@@ -1,0 +1,782 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+/* line 89, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+html, body {
+  font-size: 10px;
+}
+
+/* line 93, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 96, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+/* line 102, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main > section {
+  padding: 52px 22px;
+}
+/* line 106, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .icon-title {
+  font-size: 0;
+}
+/* line 108, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .icon-title fa, body main .icon-title h3, body main .icon-title div {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 112, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .icon-title h3 {
+  text-transform: uppercase;
+  margin-left: 12px;
+  font-weight: bold;
+}
+/* line 119, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .info-content {
+  padding: 0 32px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* line 123, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .info-content p {
+  font-size: 14px;
+  text-align: justify;
+  color: inherit;
+}
+/* line 129, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .info-content ul.list-icons {
+  list-style: none;
+  margin: 0;
+}
+/* line 132, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .info-content ul.list-icons li {
+  margin: 30px 0;
+}
+/* line 134, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .info-content ul.list-icons li:first-child {
+  padding-top: 10px;
+}
+/* line 137, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .info-content ul.list-icons li:last-child {
+  padding-bottom: 10px;
+}
+/* line 143, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .info-content ul li div, body main .info-content ul li p {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 147, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main .info-content ul li p {
+  margin: 0;
+  margin-left: 12px;
+}
+/* line 155, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side {
+  background: #3f5771;
+}
+/* line 158, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .name, body main #left-side .job-titles {
+  color: white;
+  text-align: center;
+}
+/* line 163, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .name {
+  text-transform: uppercase;
+}
+/* line 167, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .job-titles {
+  margin-bottom: 60px;
+}
+/* line 171, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-container {
+  position: relative;
+  height: 140px;
+  margin-bottom: 24px;
+}
+/* line 175, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-container .hexagon {
+  position: absolute;
+  overflow: hidden;
+  width: 140px;
+  height: 140px;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  -moz-transform: rotate(-30deg) skewX(30deg) scaleY(0.866);
+  -ms-transform: rotate(-30deg) skewX(30deg) scaleY(0.866);
+  -webkit-transform: rotate(-30deg) skewX(30deg) scaleY(0.866);
+  transform: rotate(-30deg) skewX(30deg) scaleY(0.866);
+  backface-visibility: hidden;
+}
+/* line 187, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-container .hexagon .inner {
+  position: absolute;
+  right: 6.7%;
+  bottom: 0;
+  left: 6.7%;
+  top: 0;
+  -moz-transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+  -ms-transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+  -webkit-transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+  transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+}
+/* line 195, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-container .hexagon.hexagon-image {
+  z-index: 3;
+  -moz-transform: rotate(-30deg) skewX(30deg) scaleY(0.866) translate(-4px, 4px);
+  -ms-transform: rotate(-30deg) skewX(30deg) scaleY(0.866) translate(-4px, 4px);
+  -webkit-transform: rotate(-30deg) skewX(30deg) scaleY(0.866) translate(-4px, 4px);
+  transform: rotate(-30deg) skewX(30deg) scaleY(0.866) translate(-4px, 4px);
+}
+/* line 198, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-container .hexagon.hexagon-image .inner {
+  background: url(https://73d9135319eafc701a71e272ac40cd1505e6bbb9-www.googledrive.com/host/0B3VxOPeHfwbmeUNYaUVocTRvZ3M);
+  background-size: 120%;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+/* line 205, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-container .hexagon.hexagon-background {
+  width: 144px;
+  height: 144px;
+  z-index: 2;
+  -moz-transform: rotate(-30deg) skewX(30deg) scaleY(0.866) translate(-2px, 2px);
+  -ms-transform: rotate(-30deg) skewX(30deg) scaleY(0.866) translate(-2px, 2px);
+  -webkit-transform: rotate(-30deg) skewX(30deg) scaleY(0.866) translate(-2px, 2px);
+  transform: rotate(-30deg) skewX(30deg) scaleY(0.866) translate(-2px, 2px);
+}
+/* line 210, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-container .hexagon.hexagon-background .inner {
+  background-color: #FFFFFF;
+}
+/* line 214, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-container .hexagon.hexagon-background-dark {
+  width: 148px;
+  height: 148px;
+}
+/* line 217, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-container .hexagon.hexagon-background-dark .inner {
+  background-color: #2d3e50;
+}
+/* line 225, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .icon-title fa, body main #left-side .icon-title h3, body main #left-side .icon-title div {
+  color: white;
+}
+/* line 231, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .info-content {
+  color: #fff;
+}
+/* line 235, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .info-content ul.list-skills li {
+  margin: 12px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+/* line 243, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .info-content ul li a {
+  color: white;
+}
+/* line 35, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon,
+body main #left-side .hexagon-icon:before,
+body main #left-side .hexagon-icon:after {
+  border-style: solid;
+  border-color: #fff;
+  border-width: 2px;
+  width: 56px;
+  height: 32px;
+  border-top: none;
+  border-bottom: none;
+}
+/* line 52, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side img {
+  min-width: 100px !important;
+  height: auto;
+}
+/* line 56, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .retrato {
+  width: 120px;
+  height: 138px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 4px;
+}
+/* line 63, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon {
+  text-align: center;
+  line-height: 32px;
+  position: relative;
+  z-index: 0;
+}
+/* line 68, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon:before, body main #left-side .hexagon-icon:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -2px;
+  z-index: -1;
+}
+/* line 75, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon:before {
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+/* line 78, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon:after {
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+/* line 81, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon .fa {
+  color: #fff;
+  font-size: 28px;
+  line-height: 32px;
+}
+/* line 35, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon-fill-small,
+body main #left-side .hexagon-icon-fill-small:before,
+body main #left-side .hexagon-icon-fill-small:after {
+  border-style: solid;
+  border-color: #fff;
+  border-width: 1px;
+  width: 38px;
+  height: 22px;
+  background: #fff;
+  border-top: none;
+  border-bottom: none;
+}
+/* line 52, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side img {
+  min-width: 100px !important;
+  height: auto;
+}
+/* line 56, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .retrato {
+  width: 120px;
+  height: 138px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 4px;
+}
+/* line 63, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon-fill-small {
+  text-align: center;
+  line-height: 22px;
+  position: relative;
+  z-index: 0;
+}
+/* line 68, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon-fill-small:before, body main #left-side .hexagon-icon-fill-small:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1px;
+  z-index: -1;
+}
+/* line 75, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon-fill-small:before {
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+/* line 78, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon-fill-small:after {
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+/* line 81, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #left-side .hexagon-icon-fill-small .fa {
+  color: #2d3e50;
+  font-size: 22px;
+  line-height: 22px;
+}
+/* line 256, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side {
+  padding-top: 70px;
+  padding-bottom: 0;
+}
+/* line 260, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .icon-title fa, body main #right-side .icon-title h3, body main #right-side .icon-title div {
+  color: #2d3e50;
+}
+/* line 264, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content {
+  color: #2d3e50;
+}
+/* line 268, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.list-experience {
+  list-style: none;
+}
+/* line 270, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.list-experience li {
+  margin: 20px 0;
+}
+/* line 273, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.list-experience label {
+  font-size: 16px;
+  color: #2d3e50;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* line 280, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.list-experience label:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #2d3e50;
+  display: block;
+  display: inline-block;
+  margin-left: -18px;
+  margin-right: 8px;
+}
+/* line 292, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.list-experience span {
+  font-weight: 300;
+  color: #a7a7a7;
+  font-size: 12px;
+}
+/* line 297, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.list-experience p {
+  display: block;
+  margin-left: 0;
+  color: black;
+  text-transform: none;
+}
+/* line 304, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.list-experience.works label {
+  color: black;
+  text-transform: none;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+/* line 310, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.list-experience.works label a {
+  font-size: 12px;
+  color: #527191;
+}
+/* line 317, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.references {
+  list-style: none;
+  margin: 0;
+}
+/* line 320, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.references li {
+  overflow: hidden;
+}
+/* line 322, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.references li:after {
+  content: '\2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  \2022  ';
+  font-size: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: Arial;
+  letter-spacing: -1px;
+}
+/* line 331, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.references li:last-child:after {
+  content: '';
+}
+/* line 334, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.references li:last-child .reference-info {
+  margin-bottom: 25px;
+}
+/* line 339, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.references li:first-child h3 {
+  margin-top: 0;
+}
+/* line 344, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.references h3 {
+  margin-top: 35px;
+  text-align: center;
+}
+/* line 348, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.references .reference-info {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+/* line 352, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.references .reference-info p {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 0;
+}
+/* line 357, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .info-content ul.references .reference-info p a {
+  color: #527191;
+}
+/* line 35, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon,
+body main #right-side .hexagon-icon:before,
+body main #right-side .hexagon-icon:after {
+  border-style: solid;
+  border-color: #2d3e50;
+  border-width: 2px;
+  width: 56px;
+  height: 32px;
+  border-top: none;
+  border-bottom: none;
+}
+/* line 52, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side img {
+  min-width: 100px !important;
+  height: auto;
+}
+/* line 56, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .retrato {
+  width: 120px;
+  height: 138px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 4px;
+}
+/* line 63, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon {
+  text-align: center;
+  line-height: 32px;
+  position: relative;
+  z-index: 0;
+}
+/* line 68, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon:before, body main #right-side .hexagon-icon:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -2px;
+  z-index: -1;
+}
+/* line 75, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon:before {
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+/* line 78, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon:after {
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+/* line 81, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon .fa {
+  color: #2d3e50;
+  font-size: 28px;
+  line-height: 32px;
+}
+/* line 35, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon-fill-small,
+body main #right-side .hexagon-icon-fill-small:before,
+body main #right-side .hexagon-icon-fill-small:after {
+  border-style: solid;
+  border-color: #2d3e50;
+  border-width: 1px;
+  width: 38px;
+  height: 22px;
+  background: #2d3e50;
+  border-top: none;
+  border-bottom: none;
+}
+/* line 52, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side img {
+  min-width: 100px !important;
+  height: auto;
+}
+/* line 56, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .retrato {
+  width: 120px;
+  height: 138px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 4px;
+}
+/* line 63, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon-fill-small {
+  text-align: center;
+  line-height: 22px;
+  position: relative;
+  z-index: 0;
+}
+/* line 68, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon-fill-small:before, body main #right-side .hexagon-icon-fill-small:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1px;
+  z-index: -1;
+}
+/* line 75, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon-fill-small:before {
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+/* line 78, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon-fill-small:after {
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+/* line 81, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+body main #right-side .hexagon-icon-fill-small .fa {
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+/*Movil*/
+@media only screen and (max-width: 40em) {
+  /* line 379, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main .do-toggle {
+    right: 0;
+    margin-top: -20px;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+  }
+  /* line 386, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main .toggle-title + .info-content {
+    display: none;
+  }
+  /* line 389, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main .toggle-title {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  /* line 392, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main .toggle-title h3 {
+    max-width: 75%;
+  }
+  /* line 396, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main #left-side {
+    padding-bottom: 0;
+  }
+  /* line 398, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main #left-side .do-toggle {
+    color: white;
+  }
+  /* line 401, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main #left-side .toggle-title:last-of-type {
+    margin-bottom: 0;
+  }
+  /* line 405, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main #right-side {
+    padding-top: 35px;
+  }
+  /* line 407, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main #right-side .do-toggle {
+    color: #2d3e50;
+  }
+}
+/*iPad*/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  /* line 419, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main .info-content {
+    padding: 0 8px;
+  }
+  /* line 422, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+  body main > section {
+    padding: 52px 18px;
+  }
+}
+/* line 429, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+#print
+.print-info {
+  display: block;
+}
+/* line 432, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+#print
+.print-info span {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+/* line 437, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+#print
+.print-info strong {
+  display: block;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* line 446, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+.pulse-button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  font-size: 1.3em;
+  font-weight: light;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 100px;
+  letter-spacing: 1px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  background: #2d3e50;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(45, 62, 80, 0.8);
+  -webkit-animation: pulse 1.8s infinite;
+}
+
+/* line 470, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/resumes.scss */
+.pulse-button:hover {
+  -webkit-animation: none;
+  color: #D3D3D3;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  70% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 50px rgba(45, 62, 80, 0);
+  }
+  100% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(45, 62, 80, 0);
+  }
+}
+/* line 1, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /home/fish/code/Fishos/DevisResumePG/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
