@@ -1,25 +1,399 @@
-<p id="notice"><%= notice %></p>
+<main data-equalizer>
+  <section id="left-side" class="large-4 medium-5 small-12 left" data-equalizer-watch>
+    <section class="hexagon-container">
+      <figure class="hexagon hexagon-image">
+        <div class="inner">
+          <%= image_tag("profilepic.jpeg", class: "retrato")%>
+          <img class="retrato" src="app/assets/images/profilepic.jpeg" alt="">
+        </div>
+      </figure>
+      <figure class="hexagon hexagon-background">
+        <div class="inner">
+        </div>
+      </figure>
+      <figure class="hexagon hexagon-background-dark">
+        <div class="inner">
+        </div>
+      </figure>
+    </section>
+    <h2 class="name">Olivier<strong>  Devis</strong></h2>
+    <h3 class="job-titles">
+     * IT MANAGER *
+     </h3>
+    <section class="icon-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-file-text"></i>
+      </div>
+      <h3>Profile</h3>
+    </section>
+    <section class="info-content">
+      <p>
+        I am an individual passionate for technology and science, excelling in customer relations and building one on one relationships with clients.
 
-<h1>Resumes</h1>
+<br>I consider myself being an analytical person, outstanding at developing solutions using technology, with the emphasis on developing personal business relationships to achieve goals, to create value and to build confidence.
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+      </p>
+    </section>
+    <section class="icon-title toggle-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-user"></i>
+      </div>
+      <h3>Contact</h3>
+      <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+    </section>
+    <section class="info-content">
+      <ul class="list-icons">
+        <li>
+          <div class="hexagon-icon-fill-small">
+            <i class="fa fa-map-marker"></i>
+          </div>
+          <p>  Lindestraat 185,
+            <br>1785 Merchtem, Belgium
+          </p>
+        </li>
+        <li>
+          <div class="hexagon-icon-fill-small">
+           <i class="fa fa-mobile" aria-hidden="true"></i>
+          </div>
+          <p>
+            <a href="tel:+32474427219">(+32) 474/42.72.19 </a>
+          </p>
+        </li>
+        <li>
+          <div class="hexagon-icon-fill-small">
+            <i class="fa fa-at" aria-hidden="true"></i>
+          </div>
+          <p> <a href="mailto:devis.o@hotmail.com?subject=Job offer">devis.o@hotmail.com</a>
+          </p>
+        </li>
 
-  <tbody>
-    <% @resumes.each do |resume| %>
-      <tr>
-        <td><%= link_to 'Show', resume %></td>
-        <td><%= link_to 'Edit', edit_resume_path(resume) %></td>
-        <td><%= link_to 'Destroy', resume, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+        <li>
+          <div class="hexagon-icon-fill-small">
+            <i class="fa fa-skype"></i>
+          </div>
+          <p> <a href="skype:fishosmanos?chat">fishosmanos</a>
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="icon-title toggle-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-tasks" aria-hidden="true"></i>
+      </div>
+      <h3>Skills</h3><a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+    </section>
+    <section class="info-content">
+      <ul class="list-skills">
+        <li>Office</li>
+        <li>Web Design, Full Stack: Ruby on Rails</li>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+        <li>Prototyping</li>
+        <li>SQL Database design </li>
+        <li>IT project management</li>
+        <li>Ubuntu Linux</li>
+        <li>Kali Linux: Penetration testing</li>
+        <li>Windows</li>
+        <li>Agile Development Methodologies, focus on mobile development (Master Thesis)</li>
+        <li>Data Analysis: creating queries and translating them into usable decisions for the management</li>
+        <li>UML: Unified Modeling Language</li>
+        <li>Process Analysis: Agilian</li>
+        <li>HTML5</li>
+        <li>JavaScript</li>
+        <li>CSS, SCSS,...</li>
+        <li>IT project budgeting and cost calculations</li>
+        <li>Business Intelligence (BI)</li>
+        <li>Business Analysis</li>
+        <li>Architecture and Modelling of Management Information Systems</li>
+        <li>Github</li>
+        <li>Email development</li>
+      </ul>
+    </section>
+    <section class="icon-title toggle-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-language" aria-hidden="true"></i>
+      </div>
+      <h3>Languages</h3>
+      <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+    </section>
+    <section class="info-content">
+      <ul class="list-skills">
+        <li>Dutch:    Native / bilingual proficiency</li>
+        <li>French:   Native / bilingual proficiency</li>
+        <li>English:  Full professional proficiency</li>
+        <li>German:   Limited working proficiency</li>
 
-<br>
+      </ul>
+    </section>
+    <section class="icon-title toggle-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-gamepad"></i>
+      </div>
+      <h3>Hobbies</h3>
+      <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+    </section>
+    <section class="info-content">
+      <ul class="list-skills">
+        <li>Field hockey</li>
+        <li>Cars</li>
+        <li>Technology</li>
+        <li>Gaming</li>
+        <li>Science</li>
+        <li>Brewing belgian beer</li>
+        <li>Cryptocurrencies / Crypto Mining</li>
+        <li>Farming, crops / animals</li>
+        <li>Psychology</li>
+      </ul>
+    </section>
+  </section>
+  <section id="right-side" class="large-8 medium-7 small-12 left" data-equalizer-watch>
+    <section class="icon-title toggle-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-briefcase"></i>
+      </div>
+      <h3>Professional Experience</h3>
+      <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+    </section>
+    <section class="info-content">
+      <ul class="list-experience">
+        <li><label>Immo Cambier de Nil <span>/ 2012 - 2013 </span></label>
+          <p>
+            <strong>Real Estate Broker:</strong> I sold houses and appartments in the most exclusive Belgian seaside area, Knokke Le Zoute. Selling, renting, creating the visuals, texts and pictures for the marketing campaigns.
+          </p>
+        </li>
+        <li><label> Facilicom Airport Services @Brussels Airport <span>/ 2014 - 2015 </span></label>
+          <p>
+            <strong>Airport Caddy:</strong> I helped to organize the efficiency of the transport of persons of reduced mobility. Moving them around, analyzing the efficiency of the workers.
+          </p>
+        </li>
+        <li><label>Carshow Brussels BMW <span>/ 2016 </span></label>
+          <p>
+            <strong> BMW X-series Seller </strong> I worked for BMW before and during the carshow to optimize the selling of the X-series. My team sold the most X-series ever done on a Belgian carshow. Thanks to my team, BMW sold the most cars at the carshow compared to other car manufacturers. My tasks were: preparing the team to talk to people, persuading people about the benefits, selling expensive options,... This carshow was a great succes.
+          </p>
+        </li>
+        <li><label>Carshow Brussels BMW <span>/ 2017 </span></label>
+          <p>
+            <strong>BMW M-series Seller:</strong> I worked before and during the carshow to higher the sales of the exclusive M-branded BMW cars. My task was to inform people about the detailed specifications, motivating them to buy an BMW M and help the customers to buy the right options and accessories for their specific needs. Compared to the other M-sellers at the carshow, I sold the most M-series.
+          </p>
+        </li>
+        <li><label>Freelance Developer <span>/ 2012 - 2013 </span></label>
+          <p>
+            <strong>Web App / Webpage Developer:</strong> Before, during and after my Master studies, I worked as a freelance web developer. First of all to understand and to learn more about the practicalities of coding and web technologies, which were not teached during my Acadamic Business Information Management Master. The studies focused on the management practices and the over-all knowledge. Developing web apps and websites gave me insights on what a development process really contains. This was enforced by my research for my Master thesis 'Mobile Application Development Methodologies for Startups'.
+            The combination of the practical knowledge and the theoretical master studies prepared me to enable myself to become a better IT manager.
+          </p>
+        </li>
+        <li><label>Cocobum Clothing LLC <span>/ 2018 </span></label>
+          <p>
+            <strong>IT manager:</strong> During one month and a half I helped the startup 'Cocobum Clothing LLC' with all sorts of IT related problems that needed to be fixed. Preparing the internal processes, assisting with the communication with the American developers, installing basic hardware, hiring a ReactJs full-stack developer and leading the developer enabling Cocobum to launch asap after a long and insecure period working together with the American developers. Thanks to my input Cocobum was able launch a few months earlier.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="icon-title toggle-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-trophy" aria-hidden="true"></i>
+      </div>
+      <h3>Achievements</h3>
+      <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+    </section>
+    <section class="info-content">
+      <ul class="list-experience works">
+        <li><label>Contraste pour Elle  <a target="_blank" href="http://www.contrastepourelle.be/"> https://www.contrastepourelle.be <i class="fa fa-external-link"></i></a></label></li>
 
-<%= link_to 'New Resume', new_resume_path %>
+        <li><label>AP Collection <a target="_blank" href="http://apcollection.be/"> http://apcollection.be <i class="fa fa-external-link"></i></a></label></li>
+
+        <li><label>Cocobum Clothing LLC <a target="_blank" href="https://www.segurosgyt.com.gt/">https://www.cocobum.com <i class="fa fa-external-link"></i></a></label></li>
+        <li><label>Best selling team of the carshow: BMW X-series @ Brussels Carshow 2016 </label></li>
+
+        <li><label>Best BMW M-series seller @ Brussels Carshow 2017 </label></li>
+      </ul>
+    </section>
+    <section class="icon-title toggle-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-graduation-cap"></i>
+      </div>
+      <h3>Academic Education</h3>
+      <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+    </section>
+    <section class="info-content">
+      <ul class="list-experience">
+        <li>
+          <label>High School      <span>/ 2010-2013 </span></label>
+          <p>
+            <strong><i>Economics </i></strong>
+          </p>
+          <p>
+            <strong>Sint-Jan Berchmans College, Brussels |  Belgium </strong>
+          </p>
+        </li>
+        <li>
+          <label>University      <span>/ 2010-2013 </span></label>
+          <p>
+            <strong><i>Bachelor: Business Administration </i>(Dutch)</strong>
+          </p>
+          <p>
+            <strong>Katholieke Universiteit Leuven (KUL), Brussels |  Belgium </strong>
+          </p>
+          <p>
+            <a target="_blank" href="https://feb.kuleuven.be/eng/prospective-students/bachelor-of-business-administration">More info <i class="fa fa-external-link"></i></a>
+          </p>
+        </li>
+        <li>
+          <label>University      <span>/ 2010-2013 </span></label>
+          <p>
+            <strong><i>Master: Business Information Management </i>(IT Management, English)</strong>
+          </p>
+          <p>
+            <strong>Katholieke Universiteit Leuven (KUL), Brussels |  Belgium</strong>
+          </p>
+          <p>
+            <a target="_blank" href="https://onderwijsaanbod.kuleuven.be/opleidingen/e/CQ_50822897.htm#activetab=diploma_omschrijving">More info <i class="fa fa-external-link"></i></a>
+          </p>
+        </li>
+          <li>
+    </section>
+    <section class="icon-title toggle-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-list-alt" aria-hidden="true"></i>
+      </div>
+      <h3>Diplomas, Courses and Experience</h3>
+      <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+    </section>
+    <section class="info-content">
+      <ul class="list-experience">
+        <li><label>Le Wagon  <span> / 2008</span></label>
+        <p>
+             <strong>Application Development Bootcamp for Entrepreneurs </strong>
+          </p></li>
+        <li>
+          <label>NAC Agricultural Courses <span> / 2008</span></label>
+           <p>
+            <strong>Belgian State Farming License </strong>
+          </p>
+        </li>
+        <li>
+          <label>Android Development for Beginners @Udacity <span> / 2014</span></label>
+          <p>
+            <strong> Sponsored and selected by Google</strong>
+          </p>
+        </li>
+
+      </ul>
+    </section>
+    <section class="icon-title toggle-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-male"></i>
+      </div>
+      <h3>Personal Skills</h3>
+      <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+    </section>
+    <section class="info-content">
+      <ul class="list-experience works">
+        <li><label>Leading people/developers</label></li>
+        <li><label>Motivating people to achieve goals</label></li>
+        <li><label>Sales skills</label></li>
+        <li><label>The ability to create efficiency and effectiveness in a company</label></li>
+        <li><label>Sociable</label></li>
+        <li><label>Communication skills</label></li>
+        <li><label>Problem solving skills / Thinking out of the box</label></li>
+        <li><label>Loyalty</label></li>
+        <li><label>Honesty</label></li>
+        <li><label>Ability to listen</label></li>
+      <!--
+        <li><label>Productivo y eficiente</label></li>-->
+
+        <!--<li><label>Proactivo y autodidacta</label></li>
+        <li><label>Entusiasta y motivado con ganas de enfrentar retos</label></li>
+        <li><label>Iniciativo comprometido con la exelencia</label></li>-->
+
+      </ul>
+    </section>
+
+    <section class="icon-title toggle-title">
+      <div class="hexagon-icon">
+        <i class="fa fa-info"></i>
+      </div>
+      <h3>More Information</h3>
+      <a href="javascript:void(0)" class="do-toggle"><i class="fa fa-chevron-down"></i></a>
+    </section>
+    <section class="info-content">
+      <ul class="references">
+        <li>
+          <div class="large-3 medium-3 small-12 left text-center reference-info">
+            <div class="hexagon-icon-fill-small">
+              <i class="fa fa-linkedin"></i>
+            </div>
+            <p><a href="www.linkedin.com/in/olivier-devis" target="_blank">LinkedIn <i class="fa fa-external-link"></i></a></p>
+          </div>
+          <div class="large-6 medium-6 small-12 left text-center reference-info">
+          <div class="hexagon-icon-fill-small">
+            <i class="fa fa-facebook"></i>
+          </div>
+<p><a href="https://www.facebook.com/DevisO" target="_blank">Facebook <i class="fa fa-external-link"></i></a></p>
+            </div>
+
+        </li>
+        <li>
+      <br>
+      <br>
+      <br>
+      <br>
+          <a href="javascript:window.print()" class="pulse-button" id="print" title="Print my resume"><span>Print</span></a>
+      <br>
+      <br>
+
+        </li>
+      </ul>
+
+    </section>
+  </section>
+
+  <script>
+    $(document).foundation();
+function background() {
+  var leftSide = document.getElementById('left-side');
+  var pattern = Trianglify({
+    height: leftSide.clientHeight,
+    width: leftSide.clientWidth,
+    cell_size: 250,
+    x_colors: ['#3B5168', '#364b60', '#3F5870', '#445E79', '#496481', '#4D6B89', '#527191']
+  });
+
+  /*lighten($main-color, 12%, 10%, 7%, 5%)
+  ['#435c77','#3f5771','#3a5067','#364b60']*/
+
+  /*https://vis4.net/blog/posts/avoid-equidistant-hsv-colors/
+  lighten($main-color, 20%) lighten($main-color, 5%)
+
+  ['#3B5168', '#364b60', '#3F5870', '#445E79', '#496481', '#4D6B89', '#527191']*/
+  //console.log(pattern.png());
+  leftSide.setAttribute('style', 'background-image: url\(' + pattern.png() + '\)');
+}
+background();
+$('.do-toggle').click(function() {
+  $(this).closest('.toggle-title').next().slideToggle();
+  if ($(this).find('i').hasClass('fa-chevron-up')) {
+    $(this).find('i').removeClass('fa-chevron-up').addClass('fa-chevron-down');
+  } else {
+    $(this).find('i').removeClass('fa-chevron-down').addClass('fa-chevron-up');
+    if ($(this).closest('#left-side').length > 0) {
+      setTimeout(background, 500);
+    }
+  }
+});
+
+//Chirs Coyer Resizing
+var resizeTimer;
+
+$(window).on('resize', function(e) {
+
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(background, 250);
+
+});
+
+  </script>
+
+</main>
+
+
